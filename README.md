@@ -14,9 +14,7 @@ Dependencies required:
 // starts the blockchain fork locally
 Note: use the relevant network node url for the relevant protocol
 e.g. for pancakeswap, we need to get access to a ftm node and fork the blockchain
-ganache-cli --fork nodeEndPointURLHere
-
-ganache-cli --fork wss://autumn-still-wind.fantom.discover.quiknode.pro/864ae65bedb65040f0049c11997d14ae2eb9ab3a/
+* ganache-cli --fork nodeEndPointURLHere
 
 // compile and migrate (if havent done so)
 truffle compile
